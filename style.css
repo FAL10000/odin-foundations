@@ -51,3 +51,59 @@ body {
   text-decoration: none;
 }
 
+.hero {
+  background: #1F2937;
+  padding: 80px 0;
+}
+
+.hero-inner {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-left { max-width: 800px; }
+
+.hero-title {
+  font-size:48px;
+  font-weight:900;
+  color:#F9FAF8;
+}
+
+.hero-subtext {
+  font-size:18px;
+  color:#E5E7EB;
+  line-height:1.4;
+}
+
+.hero-image {
+  max-width: 400px;
+  width: 100%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 28px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background:#3882F6;
+  color:#F9FAF8;
+}
+
+.btn.outline {
+  background:transparent;
+  color:#F9FAF8;
+  border:2px solid #F9FAF8;
+}
